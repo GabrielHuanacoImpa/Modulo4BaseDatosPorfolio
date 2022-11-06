@@ -1,0 +1,455 @@
+INSERT INTO persona
+VALUES (1,
+'Gabriel',
+'Huanaco Impa',
+'San salvador de Jujuy, Jujuy, Argentina',
+'1979-03-18',
+'3885765589',
+'gabrielhuanaco@gmail.com',			
+'MAESTRO MAYOR DE OBRA, PROFESOR DE EDUCACION SECUNDARIA DE LA MODALIDAD TECNICO PROFESIONAL con concurrencia con título de base e informático',
+'https://img/foto_Perfil.jpg',
+'https://img/Esquina Totoral 3.jpg',			
+'Programador Full Stack',
+'Boliviano')
+-
+
+-----------------------------------------------------
+INSERT INTO experiencia
+VALUES (1,
+   '',
+  1,
+  'Oficial Armador de Estructuras de Hormigon Armado',
+  'Independiente- Jornada Parcial',
+  '2000-01-01',
+  '2022-11-04',
+  'San Salvador de Jujuy, jujuy, Argentina',
+  '2022-11-04',
+  'assets/icons8-construction-100.png',
+  0, 1),
+(2,
+  '',
+  1,
+  'Director Tecnico de Obras',
+  'Independiente- Jornada Parcial',
+  '2000-01-01',
+  '2022-11-04',
+  'San Salvador de Jujuy, jujuy, Argentina',
+  '2022-11-04',
+  'assets/icons8-courier-64.png',
+  0, 1),
+(3,
+  '',
+  1,
+  'Proyectista de Planos Tecnicos de viviendas',
+  'Independiente- Jornada Parcial',
+  '2000-01-01',
+  '2022-11-01',
+  'San Salvador de Jujuy, jujuy, Argentina',
+  '2022-11-04',
+  'assets/icons8-floor-plan-64.png',
+  0, 1),
+(4,
+  '',
+  1,
+  'Reparacion y Mantenimiento de PC',
+  'Independiente- Jornada Parcial',      
+  '2007-01-01',
+  '2022-11-04',
+  'San Salvador de Jujuy, jujuy, Argentina',
+  '2022-11-04',
+  'assets/icons8-keyboard-and-mouse-64.png', 0, 1);
+------------------------------------------------------------
+INSERT INTO educacion
+  VALUES
+   ( 1,
+ 'ESCUELA DE EDUCACIÓN TÉCNICA Nº 1 “ESCOLÁSTICO ZEGADA',
+ 'Maestro Mayor de Obra',
+ 'San Salvador de Jujuy, jujuy, Argentina',
+ '1992-03-01',
+ '1998-11-01',
+ 'assets/LOGO_EETN1.png',
+ 1, 1 ),
+ (2,
+ 'UNJu',
+ 'Ingeniería Informática',
+ 'San Salvador de Jujuy, jujuy, Argentina',
+ '1999-03-01',
+ '0000-00-00',
+ 'assets/logo_UnJu_1.jpg',
+ 1, 1),
+ (3,
+ 'inet-Ministerio de Producción-Presidencia de la Nación',
+ 'ANALISTA DEL CONOCIMIENTO - TRAYECTO PROGRAMADOR, Lenguaje de Programación Java',
+ 'San Salvador de Jujuy, jujuy, Argentina',
+ '2018-03-01',
+ '2018-12-01',
+ 'assets/logo111MIL.png',
+ 1, 1),
+ (4,
+ 'INSTITUTO DE EDUCACIÓN SUPERIOR N° 4 - RAÚL S. ORTIZ - JUJUY',
+ 'PROFESOR DE EDUCACION SECUNDARIA DE LA MODALIDAD TECNICO PROFESIONAL con concurrencia con título de base MAESTRO MAYOR DE OBRA',
+ 'San Salvador de Jujuy, jujuy, Argentina',
+ '2004-03-01',
+ '2019-12-10',
+ 'assets/logoies4-500x500.png',
+ 1, 1),
+ (5,
+ 'Ministerio de Desarrollo Productivo Argentina - Inti - cessi Argentina',
+ 'Primera etapa del Plan Argentina Programa #SéProgramar',
+ 'San Salvador de Jujuy, jujuy, Argentina',
+ '2022-01-01',
+ '2022-04-01',
+ 'assets/argprog_logo[1-Etapa].png',
+ 1, 1);
+----------------------------------------------
+
+INSERT INTO proyecto
+VALUES
+(
+			1,
+			'Construccion de Estructura de Hormigon Armado de viviendas',			
+            '1990-01-01',
+            '2021-01-01',
+            'Construccion bases, vigas de fundacion, columnas, vigas y losas. Trabajos de albañileria.',
+            '',
+            '',
+            'San salvador de Jujuy, Jujuy, Argentina',
+            'Independiente- Jornada Parcial',
+            '2022-10-01',			
+            'assets/P-Armador.jpg'
+			
+		, 1, 1),
+        (
+			2,
+			'Dirección Tecnica de Obras',
+            '2000-01-01',
+            '2022-01-01',
+            'Dirigir y controlar la ejecucion de la mano deobra de elementos estructurales segun los planos y calculos de estructuras debidamente aprobadas.',
+            '',
+            '',
+            'San salvador de Jujuy, Jujuy, Argentina',
+            'Independiente- Jornada Parcial',
+            '2022-10-01',
+            'assets/icons8-courier-64.png'
+			
+		, 1, 1),
+        (
+			3,
+			'Proyectos de Planos Tecnicos de viviendas unifamiliares',
+            '2000-01-01',
+            '2022-01-01',
+            'Confección de carpeta tecnica: planos Municipales, Plano de Obra, Instalación Electrica, Instalación Sanitaria, Instalación de Gas y Detalles Constructivos. El Plano Municipal, junto con otros requisitos fue presentado a Obras particulares para su posterior aprobacion y autorizacion para ser ejecutada con posterioridad.',
+            '',
+            '',
+            'San salvador de Jujuy, Jujuy, Argentina',
+            'Independiente- Jornada Parcial',
+            '2022-10-01',
+            'assets/icons8-floor-plan-64.png'
+			
+		, 1, 1),
+        (
+			4,
+			'Reparacion y Mantenimiento de PC',
+            '2005-01-01',
+            '2022-01-01',
+            'Instalacion y mantenimiento de Software (Sistemas Operativos, Herramientas Office, editor de video, Antivirus, Diseño asistido por computador) y Hardware (computadora de escritorios, Notebook, Netbook).',
+            '',
+            '',
+            'San salvador de Jujuy, Jujuy, Argentina',
+            'Independiente- Jornada Parcial',
+            '2022-10-01',
+			'assets/icons8-keyboard-and-mouse-64.png'
+			
+		, 1, 1),
+        (
+			5,
+			'ANALISTA DEL CONOCIMIENTO - TRAYECTO PROGRAMADOR.',
+            '2018-03-01',
+            '2018-04-01',
+            'Este curso abalado por Inet-Ministerio de Producción-Presidencia de la Nación, dictado en escuela Tecnica Nº2, de manera presencial. Se vio una introduccion a la informática y se realizaron varios proyectos con Lenguaje de Programación Java',
+            'http://www.inet.edu.ar/index.php/tag/111-mil-programadores/',
+            '',
+            'San salvador de Jujuy, Jujuy, Argentina',
+            'Independiente- Jornada Parcial',
+            '2022-10-01',
+			'assets/logo111MIL.png'
+			
+		, 1, 1),
+        (
+			6,
+			'Primera etapa del Plan Argentina Programa #SéProgramar.',
+            '2022-01-01',
+            '2022-04-01',
+            'Este curso abalado por Ministerio de Desarrollo Productivo Argentina - Inti - cessi Argentina, dictado en forma online, Se vio los siguientes capitulos: Capítulo 1 Fundamentos [Gobstones](Cantidad de ejercicios 104 - Dedicación estimada 20 horas). Capítulo 2 Programación Imperativa [JavaScript](Cantidad de ejercicios 90 - Dedicación estimada 20 horas),<br> Capítulo 3 Programación con Objetos [Ruby](Cantidad de ejercicios 96 - Dedicación estimada 20 horas)',
+            'https://seprogramar.inti.gob.ar/',
+            '',
+            'San salvador de Jujuy, Jujuy, Argentina',
+            'Independiente- Jornada Parcial',
+            '2022-10-01',
+			'assets/argprog_logo[1-Etapa].png'
+			
+		, 1, 1),
+        (
+			7,
+			'Segunda etapa del Plan Argentina Programa #YoProgramo 3ra edición.',
+            '2022-06-01',
+            '2023-01-01',
+            'Este curso abalado por Ministerio de Desarrollo Productivo Argentina - Inti, dictado en forma online. Se vio los siguientes Modulos : Módulo 1 - Introducción a Desarrollo Web y Aplicaciones. Módulo 2 - Desarrollo Front End estático<br>',
+            'https://argentinaprograma.inti.gob.ar/',
+            '',
+            'San salvador de Jujuy, Jujuy, Argentina',
+            'Independiente- Jornada Parcial',
+            '2022-10-01',
+			'assets/APLogo-20-20[2-Etapa].png'
+			
+		, 1, 1);
+
+---------------------------------------------------
+
+  INSERT INTO hardskills
+  VALUES 
+  (1,
+     'S.O. Windows 11',
+     40, 1
+),
+(2,
+     'S.O. Linux',
+     15, 1
+),
+(3,
+     'Turbo Pascal',
+     50, 1
+),
+(4,
+     'Lenguaje C',
+     50, 1
+),
+(5,
+     'Lenguaje C++',
+     50, 1
+),
+(6,
+     'Lenguaje Java',
+     50, 1
+),
+(7,
+     'Lenguaje JavaScript',
+     40, 1
+),
+(8,
+     'Lenguaje Ruby',
+     40, 1
+),
+(9,
+     'Visual Studio Code',
+     30, 1
+),
+(10,
+     'AutoCad',
+     60, 1
+),
+(11,
+     'SketchUp',
+     50, 1
+),
+(12,
+     'Lenguaje FoxPro',
+     40, 1
+),
+(13,
+     'Lenguaje Cobol',
+     40, 1
+),
+(14,
+     'Lenguaje LISP',
+     30, 1
+),
+(15,
+     'Concurrent Pascal',
+     40, 1
+),
+(16,
+     'MS. Word',
+     40, 1
+),
+(17,
+     'Excel',
+     40, 1
+),
+(18,
+     'Ms. Power Point',
+     30, 1
+),
+(19,
+     'Camtasia 2020',
+     30, 1
+),
+(20,
+     'HTML5',
+     50, 1
+),
+(21,
+     'CSS',
+     40, 1
+),
+(22,
+     'Bootstrap v5.0',
+     40, 1
+),
+(23,
+     'TypeScript',
+     40, 1
+),
+(24,
+     'Photoshopt',
+     15, 1
+);
+------------------------------------------------------
+  INSERT INTO softskills
+  VALUES
+  (
+	     1,
+    'Comunicación',
+     70
+,1),
+(
+	 2,
+    'Multitarea',
+     30
+,1),
+(
+	 3,
+    'Habilidades organizativas',
+     50
+,1),
+(
+	 4,
+    'Iniciativa',
+     80
+,1),
+(
+	 5,
+    'Resiliencia',
+     50
+,1),
+(
+	 6,
+    'Responsabilidad',
+     90
+,1),
+(
+	 7,
+    'Asumir riesgos',
+     60
+,1),
+(
+	 8,
+    'Creatividad',
+     60
+,1),
+(
+	 9,
+    'Autorregulación',
+     70
+,1),
+(
+	 10,
+    'Adaptabilidad',
+     70
+,1),
+(
+	 11,
+    'Gestión del tiempo',
+     80
+,1),
+(
+	 12,
+    'Autodesarrollo',
+     70
+,1),
+(
+	 13,
+    'Trabajo en equipo',
+     80
+,1),
+(
+	 14,
+    'Trabajo en red',
+     70
+,1),
+(
+	 15,
+    'Empatía',
+     40
+,1),
+(
+	 16,
+    'Compasión',
+     70
+,1),
+(
+	 17,
+    'Sensibilidad cultural',
+     70
+,1),
+(
+	 18,
+    'Habilidades de comunicación',
+     70
+,1),
+(
+	 19,
+    'Liderazgo',
+     90
+,1),
+(
+	 20,
+    'Organización',
+     70
+,1),
+(
+	 21,
+    'Resolución de problemas',
+     70
+,1),
+(
+	 22,
+    'Pensamiento crítico',
+     70
+,1),
+(
+	 23,
+    'Proactivo',
+     70
+,1),
+(
+	 24,
+    'Buenos modales',
+     90
+,1),
+(
+	 25,
+    'Sentido del humor',
+     70
+,1);
+
+
+--------------------------------------------------------------------------
+INSERT INTO idioma
+VALUES
+(
+	 1,
+    'Español',
+     90
+,1),
+(
+	 2,
+    'Ingles Tecnico',
+     30
+,1),
+(
+	 3,
+    'Quechua',
+     30
+,1)
+-----------------------------------------------
